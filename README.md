@@ -4,6 +4,7 @@ Desarrollado con Flutter, esta practica fue desarrollada con ayuda del curso "Fl
 Con ella se utilizaron multiples componentes, bastante utilez en el desarrollo con Flutter
 
 ListView
+
 ![ScreenShot](https://raw.github.com/Gamas-G/Flutter_Componentes/master/screenshot/1.png)
 
 AlertDialog
