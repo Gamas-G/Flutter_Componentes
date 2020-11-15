@@ -6,6 +6,7 @@ class CardPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       appBar: AppBar(
         title: Text("Cards"),
@@ -16,6 +17,9 @@ class CardPage extends StatelessWidget {
         children: <Widget>[
           SizedBox(height: 20.0),
           _cardTipo1(),
+          SizedBox(height: 30.0),
+          Center(child: Text('Mi CARD')),
+          _cardMio(),
           SizedBox(height: 30.0),
           _cardTipo2(),
           SizedBox(height: 20.0),
@@ -65,6 +69,36 @@ class CardPage extends StatelessWidget {
           )
         ],
       )
+    );
+  }
+
+  Widget _cardMio(){
+    return Card(
+          shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20.0)
+      ),
+        clipBehavior: Clip.antiAlias,//Ayuda en mantener todo dentro de la tarjeta evitando el desvorte de las esquinas
+        elevation: 10.0,
+        shadowColor: Colors.blue,
+       child: Column(
+        children: [
+          
+          FadeInImage(
+            placeholder: AssetImage('images/wait.gif'),
+            image: NetworkImage('https://www.azureazure.com/wp-content/uploads/2019/09/thailand-beach.jpg'),
+            fadeInDuration: Duration(milliseconds: 200),
+            height: 300.0,
+            fit: BoxFit.cover,
+            ),
+
+            // Text('Hola')
+
+          Container(
+            padding: EdgeInsets.all(10.0),
+            child: Text("Paisaje")
+            )
+        ],
+      ),
     );
   }
 

@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //NOTA:De acuerdo a la creacion del arbol de widget el context guarda ese historial y este context guarda como dirty(segun la documentacion ese se debe a que este widget se ha marcado como necesario para la reconstruccion)
-    print('Este es mi primer context: ${context.toString()}');
+    
     return MaterialApp(
       //MMM guarda los idiomas, para luego utilizarlos con Locale una muestra se encuentra en input_page
       localizationsDelegates: [
