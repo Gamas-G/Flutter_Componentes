@@ -10,4 +10,6 @@
 
 ![ScreenShot](https://raw.github.com/Gamas-G/Flutter_Componentes/master/screenshot/5.png)
 
-![ScreenShot](https://raw.github.com/Gamas-G/Flutter_Componentes/master/screenshot/6.png)
+![ScreenShot](https://raw.github.com/Gamas-G/Flutter_Componentes/master/screenshot/6.png) ![ScreenShot](https://raw.github.com/Gamas-G/Flutter_Componentes/master/screenshot/7.png)
+
+![ScreenShot](https://raw.github.com/Gamas-G/Flutter_Componentes/master/screenshot/8.png)
